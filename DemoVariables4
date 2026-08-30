@@ -1,0 +1,10 @@
+package helloworld.variables;
+
+public class DemoVariables4 {
+    public static void main(String[] args) {
+        char myGrade = 'A';
+        char myFinalGrade = 'C';
+
+        System.out.println("Our grades are " + myGrade + " and " + myFinalGrade);
+    }
+}
