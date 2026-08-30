@@ -1,0 +1,13 @@
+public class OperatorPrecedence {
+
+    public static void main(String[] args) {
+
+
+        int result = 6 % 2 * 5 + 4 / 2 + 88 - 10;
+
+
+        System.out.println("Result: " + result);
+
+    }
+
+}
