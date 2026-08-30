@@ -1,0 +1,67 @@
+public class IncrementDecrement {
+
+    public static void main(String[] args) {
+
+
+        int i = 1;
+
+        int j = 1;
+
+
+        // Pre-increment
+
+        j = ++i;
+
+        System.out.println("Pre-increment:");
+
+        System.out.println("i = " + i);
+
+        System.out.println("j = " + j);
+
+
+        // Reset values
+
+        i = 1;
+
+        j = 1;
+
+
+        // Post-increment
+
+        j = i++;
+
+        System.out.println("\nPost-increment:");
+
+        System.out.println("i = " + i);
+
+        System.out.println("j = " + j);
+
+
+        // Pre-decrement
+
+        i = 1;
+
+        j = --i;
+
+        System.out.println("\nPre-decrement:");
+
+        System.out.println("i = " + i);
+
+        System.out.println("j = " + j);
+
+
+        // Post-decrement
+
+        i = 1;
+
+        j = i--;
+
+        System.out.println("\nPost-decrement:");
+
+        System.out.println("i = " + i);
+
+        System.out.println("j = " + j);
+
+    }
+
+}
