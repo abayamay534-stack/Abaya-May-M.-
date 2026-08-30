@@ -1,0 +1,15 @@
+package helloworld.variables;
+
+public class DemoVariables3 {
+    public static void main(String[] args) {
+        double doubleNum1 = 2.3;
+        double doubleNum2 = 14.8;
+        double doubleResult;
+
+        doubleResult = doubleNum1 + doubleNum2;
+        System.out.println("The sum of the doubles is " + doubleResult);
+
+        doubleResult = doubleNum1 * doubleNum2;
+        System.out.println("The product of the doubles is " + doubleResult);
+    }
+}
