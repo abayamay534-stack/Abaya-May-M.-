@@ -1,0 +1,31 @@
+public class TypeCasting {
+
+    public static void main(String[] args) {
+
+
+        // Widening type casting
+
+        int num = 10;
+
+        double decimal = num;
+
+
+        System.out.println("Integer value: " + num);
+
+        System.out.println("Double value: " + decimal);
+
+
+        // Narrowing type casting
+
+        double price = 25.75;
+
+        int wholeNumber = (int) price;
+
+
+        System.out.println("Original double: " + price);
+
+        System.out.println("After casting to int: " + wholeNumber);
+
+    }
+
+}
