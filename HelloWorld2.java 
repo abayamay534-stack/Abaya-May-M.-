@@ -1,0 +1,20 @@
+// Filename HelloWorld 2.java
+// Written by <May>
+// Network Security 2026-2030 1-2
+package helloworld;
+
+public class Helloworld2
+// Written on < August 10>
+/* This class demonstrates the use of the print () and and println() 
+*method to print the message Hello, world! and I am
+* a new student.  I'm ready for Java programming. */
+{
+    
+/**
+*@param args the command line arguments
+*/
+public static void main (String[] args) {
+    // TODO code application logic here
+System.out.println("I am a new student.");System.out.println("I'm ready for Java programming ! ");
+}
+}
