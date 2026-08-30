@@ -1,0 +1,29 @@
+public class DemoVariables6 {
+    public static void main(String[] args) {
+
+        int value1 = 43;
+        int value2 = 10;
+
+        int sum;
+        int difference;
+        int product;
+        int quotient;
+        int modulus;
+
+        sum = value1 + value2;
+        difference = value1 - value2;
+        product = value1 * value2;
+        quotient = value1 / value2;
+        modulus = value1 % value2;
+
+        System.out.println("The int is " + 296);
+        System.out.println("The short is " + value2);
+        System.out.println("The long is " + 1234567876543L);
+
+        System.out.println("Sum is " + sum);
+        System.out.println("Difference is " + difference);
+        System.out.println("Product is " + product);
+        System.out.println("Quotient is " + quotient);
+        System.out.println("Modulus is " + modulus);
+    }
+}
