@@ -1,0 +1,9 @@
+package helloworld.variables;
+
+public class DemoVariables {
+    public static void main (String[] Args){
+           int intNo = 296;
+           System.out.print("The int is ") ;
+           System.out.println(intNo) ;
+        }
+}
